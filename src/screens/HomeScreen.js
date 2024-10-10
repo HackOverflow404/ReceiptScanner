@@ -31,8 +31,7 @@ const HomeScreen = ({ navigation }) => {
             justifyContent: "space-between",
             alignItems: "center",
             flexDirection: "row",
-            marginTop: 15,
-            marginBottom: 15,
+            marginVertical: 15,
             borderRadius: useTheme().BorderRadius,
             paddingLeft: 40,
             paddingRight: 40,
@@ -47,6 +46,7 @@ const HomeScreen = ({ navigation }) => {
             marginTop: 15,
             color: useTheme().TextColor,
             fontSize: 30,
+            fontWeight: "bold",
         },
     });
 
@@ -77,7 +77,7 @@ const HomeScreen = ({ navigation }) => {
                 <Text style={styles.AppName}>SmartSplit</Text>
                 <Icon name="account-circle" style={styles.ProfileIcon} color={styles.ProfileIcon.color} size={styles.ProfileIcon.size}  />
             </View>
-            <Pressable style={styles.ScanBtn}>
+            <Pressable style={styles.ScanBtn} onPress={() => { navigation.navigate("Scan Receipt")}}>
                 <Icon name="photo-camera" style={styles.ProfileIcon} color={styles.ProfileIcon.color} size={styles.ProfileIcon.size}  />
                 <Text style={styles.ScanBtnText}>Scan Receipt</Text>
             </Pressable>
