@@ -1,0 +1,1407 @@
+{
+    "ParsedResults": [
+        {
+            "TextOverlay": {
+                "Lines": [
+                    {
+                        "LineText": "OfiNftNRS",
+                        "Words": [
+                            {
+                                "WordText": "OfiNftNRS",
+                                "Left": 49.0,
+                                "Top": 332.0,
+                                "Height": 15.0,
+                                "Width": 64.0
+                            }
+                        ],
+                        "MaxHeight": 15.0,
+                        "MinTop": 332.0
+                    },
+                    {
+                        "LineText": "BEV\u00e9RRGE",
+                        "Words": [
+                            {
+                                "WordText": "BEV\u00e9RRGE",
+                                "Left": 58.0,
+                                "Top": 355.0,
+                                "Height": 18.0,
+                                "Width": 62.0
+                            }
+                        ],
+                        "MaxHeight": 18.0,
+                        "MinTop": 355.0
+                    },
+                    {
+                        "LineText": "OS CRRN POH",
+                        "Words": [
+                            {
+                                "WordText": "OS",
+                                "Left": 58.0,
+                                "Top": 375.0,
+                                "Height": 11.0,
+                                "Width": 14.0
+                            },
+                            {
+                                "WordText": "CRRN",
+                                "Left": 82.0,
+                                "Top": 374.0,
+                                "Height": 12.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "POH",
+                                "Left": 121.0,
+                                "Top": 374.0,
+                                "Height": 12.0,
+                                "Width": 23.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 374.0
+                    },
+                    {
+                        "LineText": "STRWBRY CC",
+                        "Words": [
+                            {
+                                "WordText": "STRWBRY",
+                                "Left": 58.0,
+                                "Top": 388.0,
+                                "Height": 13.0,
+                                "Width": 54.0
+                            },
+                            {
+                                "WordText": "CC",
+                                "Left": 121.0,
+                                "Top": 388.0,
+                                "Height": 13.0,
+                                "Width": 15.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 388.0
+                    },
+                    {
+                        "LineText": "CAHPRRI TOM",
+                        "Words": [
+                            {
+                                "WordText": "CAHPRRI",
+                                "Left": 57.0,
+                                "Top": 403.0,
+                                "Height": 12.0,
+                                "Width": 54.0
+                            },
+                            {
+                                "WordText": "TOM",
+                                "Left": 121.0,
+                                "Top": 403.0,
+                                "Height": 12.0,
+                                "Width": 23.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 403.0
+                    },
+                    {
+                        "LineText": "KFT SINGLES",
+                        "Words": [
+                            {
+                                "WordText": "KFT",
+                                "Left": 57.0,
+                                "Top": 417.0,
+                                "Height": 13.0,
+                                "Width": 23.0
+                            },
+                            {
+                                "WordText": "SINGLES",
+                                "Left": 89.0,
+                                "Top": 417.0,
+                                "Height": 12.0,
+                                "Width": 54.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 417.0
+                    },
+                    {
+                        "LineText": "44600982114",
+                        "Words": [
+                            {
+                                "WordText": "44600982114",
+                                "Left": 57.0,
+                                "Top": 431.0,
+                                "Height": 13.0,
+                                "Width": 86.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 431.0
+                    },
+                    {
+                        "LineText": "HARD SNLAHI",
+                        "Words": [
+                            {
+                                "WordText": "HARD",
+                                "Left": 57.0,
+                                "Top": 446.0,
+                                "Height": 11.0,
+                                "Width": 31.0
+                            },
+                            {
+                                "WordText": "SNLAHI",
+                                "Left": 97.0,
+                                "Top": 446.0,
+                                "Height": 11.0,
+                                "Width": 45.0
+                            }
+                        ],
+                        "MaxHeight": 11.0,
+                        "MinTop": 446.0
+                    },
+                    {
+                        "LineText": "fiVOCRDO",
+                        "Words": [
+                            {
+                                "WordText": "fiVOCRDO",
+                                "Left": 56.0,
+                                "Top": 459.0,
+                                "Height": 12.0,
+                                "Width": 55.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 459.0
+                    },
+                    {
+                        "LineText": "See bock of receipt for your chonce",
+                        "Words": [
+                            {
+                                "WordText": "See",
+                                "Left": 64.0,
+                                "Top": 76.0,
+                                "Height": 11.0,
+                                "Width": 22.0
+                            },
+                            {
+                                "WordText": "bock",
+                                "Left": 94.0,
+                                "Top": 77.0,
+                                "Height": 11.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "of",
+                                "Left": 133.0,
+                                "Top": 78.0,
+                                "Height": 10.0,
+                                "Width": 14.0
+                            },
+                            {
+                                "WordText": "receipt",
+                                "Left": 155.0,
+                                "Top": 75.0,
+                                "Height": 13.0,
+                                "Width": 52.0
+                            },
+                            {
+                                "WordText": "for",
+                                "Left": 216.0,
+                                "Top": 75.0,
+                                "Height": 10.0,
+                                "Width": 22.0
+                            },
+                            {
+                                "WordText": "your",
+                                "Left": 247.0,
+                                "Top": 76.0,
+                                "Height": 9.0,
+                                "Width": 29.0
+                            },
+                            {
+                                "WordText": "chonce",
+                                "Left": 285.0,
+                                "Top": 70.0,
+                                "Height": 12.0,
+                                "Width": 45.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 70.0
+                    },
+                    {
+                        "LineText": "to win $1000",
+                        "Words": [
+                            {
+                                "WordText": "to",
+                                "Left": 64.0,
+                                "Top": 89.0,
+                                "Height": 11.0,
+                                "Width": 14.0
+                            },
+                            {
+                                "WordText": "win",
+                                "Left": 87.0,
+                                "Top": 91.0,
+                                "Height": 10.0,
+                                "Width": 22.0
+                            },
+                            {
+                                "WordText": "$1000",
+                                "Left": 117.0,
+                                "Top": 90.0,
+                                "Height": 11.0,
+                                "Width": 37.0
+                            }
+                        ],
+                        "MaxHeight": 11.0,
+                        "MinTop": 89.0
+                    },
+                    {
+                        "LineText": "7KZGFl SL2FF",
+                        "Words": [
+                            {
+                                "WordText": "7KZGFl",
+                                "Left": 125.0,
+                                "Top": 116.0,
+                                "Height": 12.0,
+                                "Width": 42.0
+                            },
+                            {
+                                "WordText": "SL2FF",
+                                "Left": 171.0,
+                                "Top": 115.0,
+                                "Height": 13.0,
+                                "Width": 36.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 115.0
+                    },
+                    {
+                        "LineText": "Walmart",
+                        "Words": [
+                            {
+                                "WordText": "Walmart",
+                                "Left": 92.0,
+                                "Top": 192.0,
+                                "Height": 35.0,
+                                "Width": 184.0
+                            }
+                        ],
+                        "MaxHeight": 35.0,
+                        "MinTop": 192.0
+                    },
+                    {
+                        "LineText": "Save money. Live better.",
+                        "Words": [
+                            {
+                                "WordText": "Save",
+                                "Left": 95.0,
+                                "Top": 232.0,
+                                "Height": 12.0,
+                                "Width": 34.0
+                            },
+                            {
+                                "WordText": "money.",
+                                "Left": 135.0,
+                                "Top": 236.0,
+                                "Height": 12.0,
+                                "Width": 54.0
+                            },
+                            {
+                                "WordText": "Live",
+                                "Left": 195.0,
+                                "Top": 233.0,
+                                "Height": 12.0,
+                                "Width": 29.0
+                            },
+                            {
+                                "WordText": "better.",
+                                "Left": 229.0,
+                                "Top": 233.0,
+                                "Height": 12.0,
+                                "Width": 51.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 232.0
+                    },
+                    {
+                        "LineText": "( 970 ) 259 - 8765",
+                        "Words": [
+                            {
+                                "WordText": "(",
+                                "Left": 138.0,
+                                "Top": 264.0,
+                                "Height": 12.0,
+                                "Width": 4.0
+                            },
+                            {
+                                "WordText": "970",
+                                "Left": 154.0,
+                                "Top": 264.0,
+                                "Height": 12.0,
+                                "Width": 22.0
+                            },
+                            {
+                                "WordText": ")",
+                                "Left": 186.0,
+                                "Top": 265.0,
+                                "Height": 11.0,
+                                "Width": 6.0
+                            },
+                            {
+                                "WordText": "259",
+                                "Left": 200.0,
+                                "Top": 264.0,
+                                "Height": 12.0,
+                                "Width": 23.0
+                            },
+                            {
+                                "WordText": "-",
+                                "Left": 231.0,
+                                "Top": 269.0,
+                                "Height": 3.0,
+                                "Width": 7.0
+                            },
+                            {
+                                "WordText": "8765",
+                                "Left": 247.0,
+                                "Top": 264.0,
+                                "Height": 12.0,
+                                "Width": 30.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 264.0
+                    },
+                    {
+                        "LineText": "MANAGER MIKE NEIDLINGER",
+                        "Words": [
+                            {
+                                "WordText": "MANAGER",
+                                "Left": 114.0,
+                                "Top": 278.0,
+                                "Height": 11.0,
+                                "Width": 54.0
+                            },
+                            {
+                                "WordText": "MIKE",
+                                "Left": 177.0,
+                                "Top": 278.0,
+                                "Height": 12.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "NEIDLINGER",
+                                "Left": 216.0,
+                                "Top": 278.0,
+                                "Height": 11.0,
+                                "Width": 77.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 278.0
+                    },
+                    {
+                        "LineText": "1165 S CfiHINO DEL RIO",
+                        "Words": [
+                            {
+                                "WordText": "1165",
+                                "Left": 122.0,
+                                "Top": 291.0,
+                                "Height": 12.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "S",
+                                "Left": 161.0,
+                                "Top": 291.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            },
+                            {
+                                "WordText": "CfiHINO",
+                                "Left": 177.0,
+                                "Top": 292.0,
+                                "Height": 11.0,
+                                "Width": 46.0
+                            },
+                            {
+                                "WordText": "DEL",
+                                "Left": 231.0,
+                                "Top": 292.0,
+                                "Height": 11.0,
+                                "Width": 23.0
+                            },
+                            {
+                                "WordText": "RIO",
+                                "Left": 263.0,
+                                "Top": 291.0,
+                                "Height": 12.0,
+                                "Width": 22.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 291.0
+                    },
+                    {
+                        "LineText": "DIJRRNGC CO 81 303",
+                        "Words": [
+                            {
+                                "WordText": "DIJRRNGC",
+                                "Left": 146.0,
+                                "Top": 305.0,
+                                "Height": 12.0,
+                                "Width": 53.0
+                            },
+                            {
+                                "WordText": "CO",
+                                "Left": 208.0,
+                                "Top": 305.0,
+                                "Height": 12.0,
+                                "Width": 15.0
+                            },
+                            {
+                                "WordText": "81",
+                                "Left": 231.0,
+                                "Top": 305.0,
+                                "Height": 12.0,
+                                "Width": 12.0
+                            },
+                            {
+                                "WordText": "303",
+                                "Left": 247.0,
+                                "Top": 305.0,
+                                "Height": 12.0,
+                                "Width": 22.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 305.0
+                    },
+                    {
+                        "LineText": "02270 000144 02 03080",
+                        "Words": [
+                            {
+                                "WordText": "02270",
+                                "Left": 90.0,
+                                "Top": 318.0,
+                                "Height": 12.0,
+                                "Width": 39.0
+                            },
+                            {
+                                "WordText": "000144",
+                                "Left": 169.0,
+                                "Top": 319.0,
+                                "Height": 12.0,
+                                "Width": 45.0
+                            },
+                            {
+                                "WordText": "02",
+                                "Left": 255.0,
+                                "Top": 319.0,
+                                "Height": 12.0,
+                                "Width": 14.0
+                            },
+                            {
+                                "WordText": "03080",
+                                "Left": 310.0,
+                                "Top": 317.0,
+                                "Height": 13.0,
+                                "Width": 38.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 317.0
+                    },
+                    {
+                        "LineText": "SH NYLON COL 007417024836",
+                        "Words": [
+                            {
+                                "WordText": "SH",
+                                "Left": 55.0,
+                                "Top": 501.0,
+                                "Height": 12.0,
+                                "Width": 15.0
+                            },
+                            {
+                                "WordText": "NYLON",
+                                "Left": 79.0,
+                                "Top": 501.0,
+                                "Height": 12.0,
+                                "Width": 39.0
+                            },
+                            {
+                                "WordText": "COL",
+                                "Left": 127.0,
+                                "Top": 501.0,
+                                "Height": 12.0,
+                                "Width": 23.0
+                            },
+                            {
+                                "WordText": "007417024836",
+                                "Left": 159.0,
+                                "Top": 501.0,
+                                "Height": 13.0,
+                                "Width": 95.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 501.0
+                    },
+                    {
+                        "LineText": "CLEANER",
+                        "Words": [
+                            {
+                                "WordText": "CLEANER",
+                                "Left": 95.0,
+                                "Top": 515.0,
+                                "Height": 13.0,
+                                "Width": 55.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 515.0
+                    },
+                    {
+                        "LineText": "INJECTR CLNR 004980710003",
+                        "Words": [
+                            {
+                                "WordText": "INJECTR",
+                                "Left": 54.0,
+                                "Top": 530.0,
+                                "Height": 13.0,
+                                "Width": 56.0
+                            },
+                            {
+                                "WordText": "CLNR",
+                                "Left": 118.0,
+                                "Top": 530.0,
+                                "Height": 12.0,
+                                "Width": 32.0
+                            },
+                            {
+                                "WordText": "004980710003",
+                                "Left": 159.0,
+                                "Top": 529.0,
+                                "Height": 13.0,
+                                "Width": 96.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 529.0
+                    },
+                    {
+                        "LineText": "38.68",
+                        "Words": [
+                            {
+                                "WordText": "38.68",
+                                "Left": 306.0,
+                                "Top": 603.0,
+                                "Height": 13.0,
+                                "Width": 39.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 603.0
+                    },
+                    {
+                        "LineText": "000000004011 KI",
+                        "Words": [
+                            {
+                                "WordText": "000000004011",
+                                "Left": 161.0,
+                                "Top": 333.0,
+                                "Height": 11.0,
+                                "Width": 91.0
+                            },
+                            {
+                                "WordText": "KI",
+                                "Left": 255.0,
+                                "Top": 332.0,
+                                "Height": 12.0,
+                                "Width": 14.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 332.0
+                    },
+                    {
+                        "LineText": "00312000i133 F",
+                        "Words": [
+                            {
+                                "WordText": "00312000i133",
+                                "Left": 160.0,
+                                "Top": 355.0,
+                                "Height": 17.0,
+                                "Width": 94.0
+                            },
+                            {
+                                "WordText": "F",
+                                "Left": 263.0,
+                                "Top": 360.0,
+                                "Height": 11.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 17.0,
+                        "MinTop": 355.0
+                    },
+                    {
+                        "LineText": "003120027015 F",
+                        "Words": [
+                            {
+                                "WordText": "003120027015",
+                                "Left": 161.0,
+                                "Top": 374.0,
+                                "Height": 12.0,
+                                "Width": 93.0
+                            },
+                            {
+                                "WordText": "F",
+                                "Left": 263.0,
+                                "Top": 374.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 374.0
+                    },
+                    {
+                        "LineText": "076471782200 F",
+                        "Words": [
+                            {
+                                "WordText": "076471782200",
+                                "Left": 160.0,
+                                "Top": 388.0,
+                                "Height": 13.0,
+                                "Width": 94.0
+                            },
+                            {
+                                "WordText": "F",
+                                "Left": 263.0,
+                                "Top": 388.0,
+                                "Height": 12.0,
+                                "Width": 6.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 388.0
+                    },
+                    {
+                        "LineText": "073447501213",
+                        "Words": [
+                            {
+                                "WordText": "073447501213",
+                                "Left": 160.0,
+                                "Top": 402.0,
+                                "Height": 13.0,
+                                "Width": 94.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 402.0
+                    },
+                    {
+                        "LineText": "002100061526 F",
+                        "Words": [
+                            {
+                                "WordText": "002100061526",
+                                "Left": 160.0,
+                                "Top": 416.0,
+                                "Height": 13.0,
+                                "Width": 94.0
+                            },
+                            {
+                                "WordText": "F",
+                                "Left": 263.0,
+                                "Top": 416.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 416.0
+                    },
+                    {
+                        "LineText": "004460098211 F",
+                        "Words": [
+                            {
+                                "WordText": "004460098211",
+                                "Left": 160.0,
+                                "Top": 431.0,
+                                "Height": 12.0,
+                                "Width": 92.0
+                            },
+                            {
+                                "WordText": "F",
+                                "Left": 263.0,
+                                "Top": 431.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 431.0
+                    },
+                    {
+                        "LineText": "020533960343 F",
+                        "Words": [
+                            {
+                                "WordText": "020533960343",
+                                "Left": 160.0,
+                                "Top": 445.0,
+                                "Height": 12.0,
+                                "Width": 94.0
+                            },
+                            {
+                                "WordText": "F",
+                                "Left": 263.0,
+                                "Top": 445.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 445.0
+                    },
+                    {
+                        "LineText": "0000000040461<1",
+                        "Words": [
+                            {
+                                "WordText": "0000000040461<1",
+                                "Left": 160.0,
+                                "Top": 458.0,
+                                "Height": 13.0,
+                                "Width": 110.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 458.0
+                    },
+                    {
+                        "LineText": "AT 1 FOR",
+                        "Words": [
+                            {
+                                "WordText": "AT",
+                                "Left": 104.0,
+                                "Top": 473.0,
+                                "Height": 12.0,
+                                "Width": 15.0
+                            },
+                            {
+                                "WordText": "1",
+                                "Left": 136.0,
+                                "Top": 473.0,
+                                "Height": 12.0,
+                                "Width": 5.0
+                            },
+                            {
+                                "WordText": "FOR",
+                                "Left": 152.0,
+                                "Top": 473.0,
+                                "Height": 12.0,
+                                "Width": 23.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 473.0
+                    },
+                    {
+                        "LineText": "0.44",
+                        "Words": [
+                            {
+                                "WordText": "0.44",
+                                "Left": 215.0,
+                                "Top": 473.0,
+                                "Height": 12.0,
+                                "Width": 31.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 473.0
+                    },
+                    {
+                        "LineText": "PILLS WHITE",
+                        "Words": [
+                            {
+                                "WordText": "PILLS",
+                                "Left": 55.0,
+                                "Top": 487.0,
+                                "Height": 12.0,
+                                "Width": 39.0
+                            },
+                            {
+                                "WordText": "WHITE",
+                                "Left": 103.0,
+                                "Top": 487.0,
+                                "Height": 12.0,
+                                "Width": 39.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 487.0
+                    },
+                    {
+                        "LineText": "068113113619 F",
+                        "Words": [
+                            {
+                                "WordText": "068113113619",
+                                "Left": 159.0,
+                                "Top": 487.0,
+                                "Height": 12.0,
+                                "Width": 95.0
+                            },
+                            {
+                                "WordText": "F",
+                                "Left": 263.0,
+                                "Top": 487.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 487.0
+                    },
+                    {
+                        "LineText": "SUBTOTAL",
+                        "Words": [
+                            {
+                                "WordText": "SUBTOTAL",
+                                "Left": 199.0,
+                                "Top": 544.0,
+                                "Height": 13.0,
+                                "Width": 64.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 544.0
+                    },
+                    {
+                        "LineText": "TAX 1",
+                        "Words": [
+                            {
+                                "WordText": "TAX",
+                                "Left": 126.0,
+                                "Top": 559.0,
+                                "Height": 13.0,
+                                "Width": 23.0
+                            },
+                            {
+                                "WordText": "1",
+                                "Left": 159.0,
+                                "Top": 559.0,
+                                "Height": 13.0,
+                                "Width": 4.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 559.0
+                    },
+                    {
+                        "LineText": "7.900 *",
+                        "Words": [
+                            {
+                                "WordText": "7.900",
+                                "Left": 191.0,
+                                "Top": 559.0,
+                                "Height": 12.0,
+                                "Width": 40.0
+                            },
+                            {
+                                "WordText": "*",
+                                "Left": 240.0,
+                                "Top": 559.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 559.0
+                    },
+                    {
+                        "LineText": "TAX 2",
+                        "Words": [
+                            {
+                                "WordText": "TAX",
+                                "Left": 126.0,
+                                "Top": 573.0,
+                                "Height": 14.0,
+                                "Width": 23.0
+                            },
+                            {
+                                "WordText": "2",
+                                "Left": 158.0,
+                                "Top": 574.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 14.0,
+                        "MinTop": 573.0
+                    },
+                    {
+                        "LineText": "s.ooo x",
+                        "Words": [
+                            {
+                                "WordText": "s.ooo",
+                                "Left": 191.0,
+                                "Top": 573.0,
+                                "Height": 13.0,
+                                "Width": 40.0
+                            },
+                            {
+                                "WordText": "x",
+                                "Left": 240.0,
+                                "Top": 574.0,
+                                "Height": 11.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 573.0
+                    },
+                    {
+                        "LineText": "TAX",
+                        "Words": [
+                            {
+                                "WordText": "TAX",
+                                "Left": 126.0,
+                                "Top": 588.0,
+                                "Height": 13.0,
+                                "Width": 23.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 588.0
+                    },
+                    {
+                        "LineText": "2,900 x",
+                        "Words": [
+                            {
+                                "WordText": "2,900",
+                                "Left": 191.0,
+                                "Top": 588.0,
+                                "Height": 13.0,
+                                "Width": 40.0
+                            },
+                            {
+                                "WordText": "x",
+                                "Left": 240.0,
+                                "Top": 589.0,
+                                "Height": 11.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 588.0
+                    },
+                    {
+                        "LineText": "TOTfiL",
+                        "Words": [
+                            {
+                                "WordText": "TOTfiL",
+                                "Left": 224.0,
+                                "Top": 603.0,
+                                "Height": 13.0,
+                                "Width": 40.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 603.0
+                    },
+                    {
+                        "LineText": "CASH TEND",
+                        "Words": [
+                            {
+                                "WordText": "CASH",
+                                "Left": 182.0,
+                                "Top": 618.0,
+                                "Height": 13.0,
+                                "Width": 32.0
+                            },
+                            {
+                                "WordText": "TEND",
+                                "Left": 232.0,
+                                "Top": 618.0,
+                                "Height": 13.0,
+                                "Width": 32.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 618.0
+                    },
+                    {
+                        "LineText": "CHRNGE",
+                        "Words": [
+                            {
+                                "WordText": "CHRNGE",
+                                "Left": 182.0,
+                                "Top": 633.0,
+                                "Height": 13.0,
+                                "Width": 49.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 633.0
+                    },
+                    {
+                        "LineText": "ITEMS SOLD 16",
+                        "Words": [
+                            {
+                                "WordText": "ITEMS",
+                                "Left": 158.0,
+                                "Top": 648.0,
+                                "Height": 14.0,
+                                "Width": 40.0
+                            },
+                            {
+                                "WordText": "SOLD",
+                                "Left": 207.0,
+                                "Top": 648.0,
+                                "Height": 14.0,
+                                "Width": 32.0
+                            },
+                            {
+                                "WordText": "16",
+                                "Left": 249.0,
+                                "Top": 648.0,
+                                "Height": 13.0,
+                                "Width": 15.0
+                            }
+                        ],
+                        "MaxHeight": 14.0,
+                        "MinTop": 648.0
+                    },
+                    {
+                        "LineText": "2.00 R",
+                        "Words": [
+                            {
+                                "WordText": "2.00",
+                                "Left": 310.0,
+                                "Top": 359.0,
+                                "Height": 12.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "R",
+                                "Left": 349.0,
+                                "Top": 360.0,
+                                "Height": 11.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 359.0
+                    },
+                    {
+                        "LineText": "2.00 R",
+                        "Words": [
+                            {
+                                "WordText": "2.00",
+                                "Left": 310.0,
+                                "Top": 373.0,
+                                "Height": 13.0,
+                                "Width": 31.0
+                            },
+                            {
+                                "WordText": "R",
+                                "Left": 349.0,
+                                "Top": 373.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 373.0
+                    },
+                    {
+                        "LineText": "2.",
+                        "Words": [
+                            {
+                                "WordText": "2.",
+                                "Left": 311.0,
+                                "Top": 402.0,
+                                "Height": 11.0,
+                                "Width": 12.0
+                            }
+                        ],
+                        "MaxHeight": 11.0,
+                        "MinTop": 402.0
+                    },
+                    {
+                        "LineText": "98 R",
+                        "Words": [
+                            {
+                                "WordText": "98",
+                                "Left": 326.0,
+                                "Top": 402.0,
+                                "Height": 11.0,
+                                "Width": 15.0
+                            },
+                            {
+                                "WordText": "R",
+                                "Left": 350.0,
+                                "Top": 402.0,
+                                "Height": 12.0,
+                                "Width": 6.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 402.0
+                    },
+                    {
+                        "LineText": "3.",
+                        "Words": [
+                            {
+                                "WordText": "3.",
+                                "Left": 311.0,
+                                "Top": 416.0,
+                                "Height": 12.0,
+                                "Width": 12.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 416.0
+                    },
+                    {
+                        "LineText": "78",
+                        "Words": [
+                            {
+                                "WordText": "78",
+                                "Left": 327.0,
+                                "Top": 416.0,
+                                "Height": 12.0,
+                                "Width": 14.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 416.0
+                    },
+                    {
+                        "LineText": "3",
+                        "Words": [
+                            {
+                                "WordText": "3",
+                                "Left": 311.0,
+                                "Top": 430.0,
+                                "Height": 12.0,
+                                "Width": 6.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 430.0
+                    },
+                    {
+                        "LineText": ". 98",
+                        "Words": [
+                            {
+                                "WordText": ".",
+                                "Left": 321.0,
+                                "Top": 440.0,
+                                "Height": 2.0,
+                                "Width": 2.0
+                            },
+                            {
+                                "WordText": "98",
+                                "Left": 327.0,
+                                "Top": 431.0,
+                                "Height": 11.0,
+                                "Width": 14.0
+                            }
+                        ],
+                        "MaxHeight": 11.0,
+                        "MinTop": 431.0
+                    },
+                    {
+                        "LineText": "3.",
+                        "Words": [
+                            {
+                                "WordText": "3.",
+                                "Left": 311.0,
+                                "Top": 445.0,
+                                "Height": 11.0,
+                                "Width": 12.0
+                            }
+                        ],
+                        "MaxHeight": 11.0,
+                        "MinTop": 445.0
+                    },
+                    {
+                        "LineText": "1 .76 R",
+                        "Words": [
+                            {
+                                "WordText": "1",
+                                "Left": 312.0,
+                                "Top": 472.0,
+                                "Height": 13.0,
+                                "Width": 4.0
+                            },
+                            {
+                                "WordText": ".76",
+                                "Left": 322.0,
+                                "Top": 473.0,
+                                "Height": 12.0,
+                                "Width": 20.0
+                            },
+                            {
+                                "WordText": "R",
+                                "Left": 350.0,
+                                "Top": 473.0,
+                                "Height": 11.0,
+                                "Width": 8.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 472.0
+                    },
+                    {
+                        "LineText": "97 x",
+                        "Words": [
+                            {
+                                "WordText": "97",
+                                "Left": 328.0,
+                                "Top": 501.0,
+                                "Height": 12.0,
+                                "Width": 14.0
+                            },
+                            {
+                                "WordText": "x",
+                                "Left": 351.0,
+                                "Top": 500.0,
+                                "Height": 12.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 500.0
+                    },
+                    {
+                        "LineText": "i .14",
+                        "Words": [
+                            {
+                                "WordText": "i",
+                                "Left": 314.0,
+                                "Top": 573.0,
+                                "Height": 13.0,
+                                "Width": 4.0
+                            },
+                            {
+                                "WordText": ".14",
+                                "Left": 324.0,
+                                "Top": 573.0,
+                                "Height": 13.0,
+                                "Width": 20.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 573.0
+                    },
+                    {
+                        "LineText": "40, 68",
+                        "Words": [
+                            {
+                                "WordText": "40,",
+                                "Left": 306.0,
+                                "Top": 618.0,
+                                "Height": 13.0,
+                                "Width": 21.0
+                            },
+                            {
+                                "WordText": "68",
+                                "Left": 331.0,
+                                "Top": 618.0,
+                                "Height": 13.0,
+                                "Width": 15.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 618.0
+                    },
+                    {
+                        "LineText": "2.00",
+                        "Words": [
+                            {
+                                "WordText": "2.00",
+                                "Left": 315.0,
+                                "Top": 633.0,
+                                "Height": 13.0,
+                                "Width": 31.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 633.0
+                    },
+                    {
+                        "LineText": "3041 7<66 0669 7962 277",
+                        "Words": [
+                            {
+                                "WordText": "3041",
+                                "Left": 124.0,
+                                "Top": 665.0,
+                                "Height": 12.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "7<66",
+                                "Left": 166.0,
+                                "Top": 664.0,
+                                "Height": 13.0,
+                                "Width": 32.0
+                            },
+                            {
+                                "WordText": "0669",
+                                "Left": 207.0,
+                                "Top": 664.0,
+                                "Height": 13.0,
+                                "Width": 32.0
+                            },
+                            {
+                                "WordText": "7962",
+                                "Left": 249.0,
+                                "Top": 664.0,
+                                "Height": 13.0,
+                                "Width": 32.0
+                            },
+                            {
+                                "WordText": "277",
+                                "Left": 290.0,
+                                "Top": 664.0,
+                                "Height": 13.0,
+                                "Width": 24.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 664.0
+                    },
+                    {
+                        "LineText": "01/15/17",
+                        "Words": [
+                            {
+                                "WordText": "01/15/17",
+                                "Left": 115.0,
+                                "Top": 724.0,
+                                "Height": 14.0,
+                                "Width": 65.0
+                            }
+                        ],
+                        "MaxHeight": 14.0,
+                        "MinTop": 724.0
+                    }
+                ],
+                "HasOverlay": true,
+                "Message": "Total lines: 63"
+            },
+            "TextOrientation": "0",
+            "FileParseExitCode": 1,
+            "ParsedText": "See bock of receipt for your chonce\t\r\nto win $1000\t\r\n7KZGFl SL2FF\t\r\nWalmart\t\r\nSave money. Live better.\t\r\n( 970 ) 259 - 8765\t\r\nMANAGER MIKE NEIDLINGER\t\r\n1165 S CfiHINO DEL RIO\t\r\nDIJRRNGC CO 81 303\t\r\n02270 000144 02 03080\t\r\nOfiNftNRS\t000000004011 KI\t\r\nBEV\u00e9RRGE\t00312000i133 F\t2.00 R\t\r\nOS CRRN POH\t003120027015 F\t2.00 R\t\r\nSTRWBRY CC\t076471782200 F\t\r\nCAHPRRI TOM\t073447501213\t2.\t98 R\t\r\nKFT SINGLES\t002100061526 F\t3.\t78\t\r\n44600982114\t004460098211 F\t3\t. 98\t\r\nHARD SNLAHI\t020533960343 F\t3.\t\r\nfiVOCRDO\t0000000040461<1\t\r\nAT 1 FOR\t0.44\t1 .76 R\t\r\nPILLS WHITE\t068113113619 F\t\r\nSH NYLON COL 007417024836\t97 x\t\r\nCLEANER\t\r\nINJECTR CLNR 004980710003\t\r\nSUBTOTAL\t\r\nTAX 1\t7.900 *\t\r\nTAX 2\ts.ooo x\ti .14\t\r\nTAX\t2,900 x\t\r\nTOTfiL\t38.68\t\r\nCASH TEND\t40, 68\t\r\nCHRNGE\t2.00\t\r\nITEMS SOLD 16\t\r\n3041 7<66 0669 7962 277\t\r\n01/15/17\t\r\n",
+            "ErrorMessage": "",
+            "ErrorDetails": ""
+        }
+    ],
+    "OCRExitCode": 1,
+    "IsErroredOnProcessing": false,
+    "ProcessingTimeInMilliseconds": "328",
+    "SearchablePDFURL": "Searchable PDF not generated as it was not requested."
+}

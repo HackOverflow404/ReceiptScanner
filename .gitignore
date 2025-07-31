@@ -37,3 +37,7 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# Other
+receipt_scan_ml/segment-anything-2
+receipt_scan_ml/.env

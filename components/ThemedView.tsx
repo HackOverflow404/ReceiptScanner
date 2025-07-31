@@ -1,14 +1,17 @@
-import { View, type ViewProps } from 'react-native';
+import { ScrollView, StyleSheet, type ScrollViewProps } from 'react-native';
+import { useTheme } from '../contexts/ThemeProvider';
 
-import { useThemeColor } from '@/hooks/useThemeColor';
+export function ThemedView({ style, ...otherProps }: ScrollViewProps) {
+  const theme = useTheme();
 
-export type ThemedViewProps = ViewProps & {
-  lightColor?: string;
-  darkColor?: string;
-};
+  const styles = StyleSheet.create({
+    ScreenStyle: {
+      flex: 1,
+      backgroundColor: theme.PageColor,
+      paddingTop: theme.TopPadding,
+      padding: theme.PagePadding,
+    }
+  });
 
-export function ThemedView({ style, lightColor, darkColor, ...otherProps }: ThemedViewProps) {
-  const backgroundColor = useThemeColor({ light: lightColor, dark: darkColor }, 'background');
-
-  return <View style={[{ backgroundColor }, style]} {...otherProps} />;
+  return <ScrollView style={[styles.ScreenStyle, style]} {...otherProps} />;
 }
