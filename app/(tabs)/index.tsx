@@ -50,7 +50,7 @@ const HomeScreen = () => {
       fontWeight: "bold",
     },
     ScrollContainer: {
-      paddingBottom: insets.bottom + 50,
+      paddingBottom: insets.bottom + 40,
     },
   });
 

@@ -1402,6 +1402,6 @@
     ],
     "OCRExitCode": 1,
     "IsErroredOnProcessing": false,
-    "ProcessingTimeInMilliseconds": "328",
+    "ProcessingTimeInMilliseconds": "312",
     "SearchablePDFURL": "Searchable PDF not generated as it was not requested."
 }

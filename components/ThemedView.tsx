@@ -1,17 +1,29 @@
-import { ScrollView, StyleSheet, type ScrollViewProps } from 'react-native';
-import { useTheme } from '../contexts/ThemeProvider';
+import { useTheme } from '@/contexts/ThemeProvider';
+import { SafeAreaView, ScrollView, StyleSheet, type ScrollViewProps } from 'react-native';
 
-export function ThemedView({ style, ...otherProps }: ScrollViewProps) {
+export function ThemedView({ style, contentContainerStyle, ...otherProps }: ScrollViewProps) {
   const theme = useTheme();
 
   const styles = StyleSheet.create({
-    ScreenStyle: {
+    container: {
       flex: 1,
       backgroundColor: theme.PageColor,
-      paddingTop: theme.TopPadding,
+    },
+    scroll: {
+      flex: 1,
+    },
+    scrollContent: {
       padding: theme.PagePadding,
-    }
+    },
   });
 
-  return <ScrollView style={[styles.ScreenStyle, style]} {...otherProps} />;
+  return (
+    <SafeAreaView style={styles.container}>
+      <ScrollView
+        style={styles.scroll}
+        contentContainerStyle={[styles.scrollContent, contentContainerStyle]}
+        {...otherProps}
+      />
+    </SafeAreaView>
+  );
 }
