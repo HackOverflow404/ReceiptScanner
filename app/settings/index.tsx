@@ -8,16 +8,15 @@ import { router } from "expo-router";
 import React, { useCallback, useEffect, useState } from "react";
 import {
   Alert,
-  Image,
   StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
-  View,
+  View
 } from "react-native";
 import Icon from "react-native-vector-icons/MaterialIcons";
 
-const AVATAR_BUCKET = "avatars";
+const BUCKET = "user-configs";
 
 export default function Settings() {
   const theme = useTheme();
@@ -25,7 +24,6 @@ export default function Settings() {
 
   // keep user around so we don't call getUser() repeatedly
   const [user, setUser] = useState<{ id: string; email: string } | null>(null);
-  const [localAvatarUri, setLocalAvatarUri] = useState<string | null>(null);
   const [initEmail, setInitEmail] = useState("");
   const [email, setEmail] = useState("");
 
@@ -56,15 +54,14 @@ export default function Settings() {
       );
 
       const localUri = result.assets[0].uri;
-      setLocalAvatarUri(localUri);
+      bump(localUri);
       const resp = await fetch(localUri);
       const blob = await resp.blob();
       const buffer = await new Response(blob).arrayBuffer();
 
-      // fixed key: overwrite every time
       const filePath = `${user.id}/avatar`;
       const { error } = await supabase.storage
-        .from(AVATAR_BUCKET)
+        .from(BUCKET)
         .upload(filePath, buffer, {
           upsert: true,
           contentType: blob.type,
@@ -74,13 +71,12 @@ export default function Settings() {
       if (error) {
         throw error;
       }
-      bump();
-      setLocalAvatarUri(null);
     } catch (err: any) {
       console.error("Avatar Upload Error", err);
-      setLocalAvatarUri(null);
       Alert.alert("Failed to upload avatar", err.message);
     }
+
+    bump();
   }, [bump, user]);
 
   const handleSaveChanges = useCallback(async () => {
@@ -114,23 +110,7 @@ export default function Settings() {
 
       {/* Avatar */}
       <TouchableOpacity style={styles.avatar} onPress={handleChangeAvatar}>
-        { localAvatarUri ?
-          (
-            <View style={{
-              width: 175,
-              height: 175,
-              borderRadius: 175 / 2,
-              overflow: "hidden" as const,}}> 
-                <Image
-                  source={{ uri: localAvatarUri }}
-                  style={{ width: 175, height: 175 }}
-                  resizeMode="cover"
-                />
-            </View>
-          ) : (
-            <Avatar size={175} />
-          )
-        }
+        <Avatar size={175} />
       </TouchableOpacity>
 
       {/* Email */}

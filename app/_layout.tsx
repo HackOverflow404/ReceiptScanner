@@ -1,4 +1,5 @@
 // import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
+import { AvatarRefreshProvider } from "@/contexts/AvatarRefreshContext";
 import { ThemeProvider } from "@/contexts/ThemeProvider";
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
@@ -21,18 +22,20 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider>
-      <Stack screenOptions={{ headerShown: false }}>
-        <Stack.Screen
-          name="index"
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="scan-flow" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
-      <StatusBar style="auto" />
+      <AvatarRefreshProvider>
+        <Stack screenOptions={{ headerShown: false }}>
+          <Stack.Screen
+            name="index"
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="scan-flow" options={{ headerShown: false }} />
+          <Stack.Screen name="+not-found" />
+        </Stack>
+        <StatusBar style="auto" />
+      </AvatarRefreshProvider>
     </ThemeProvider>
   );
 }
