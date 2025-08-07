@@ -31,14 +31,21 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
 .env
+receipt_scan_ml/.env
+.env*.local
+api/.env
 
 # typescript
 *.tsbuildinfo
+
+# prebuild stuff
+ios/
+android/
 
 app-example
 
 # Other
 receipt_scan_ml/segment-anything-2
-receipt_scan_ml/.env
+api/test.js
+api/receipt_walmart.png

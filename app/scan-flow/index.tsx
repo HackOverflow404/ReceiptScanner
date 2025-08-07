@@ -10,6 +10,8 @@ const ScanScreen = () => {
       justifyContent: "center",
     },
   });
+  
+
 
   return (
     <View style={styles.view}>

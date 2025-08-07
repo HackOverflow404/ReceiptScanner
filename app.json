@@ -9,14 +9,17 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "com.anonymous.ReceiptScanner"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.ReceiptScanner"
     },
     "web": {
       "bundler": "metro",
@@ -33,10 +36,15 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "SUPABASE_PROJECT_URL": "https://mkjkzuskzjxokihgnnli.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1ramt6dXNremp4b2tpaGdubmxpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQzMDMzODYsImV4cCI6MjA2OTg3OTM4Nn0.JrJEKGc8ujrpIrAA0azZ1uWlC_YX4RA3gaxrPYDoHp4"
     }
   }
 }
