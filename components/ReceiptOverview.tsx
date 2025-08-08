@@ -164,6 +164,7 @@ const ReceiptOverview: React.FC<ReceiptOverviewProps> = ({ receipt }) => {
           renderItem={renderSplittee}
           keyExtractor={(_, i) => i.toString()}
           numColumns={3}
+          scrollEnabled={false}
         />
       </Pressable>
 

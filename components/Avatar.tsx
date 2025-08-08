@@ -41,9 +41,14 @@ export const Avatar = memo(function Avatar({ size = 70, style }: AvatarProps) {
         return;
       }
 
-      if (localUri.uri !== "" || Date.now() < localUri.expiresAt ) {
-        console.log("[Avatar Refresh Provider] Using local URI");
+      if (localUri.uri !== "" && Date.now() < localUri.expiresAt ) {
         setUrl(localUri.uri);
+        // setLoading(false);
+        avatarCache[user.id] = {
+          url: localUri.uri,
+          expiresAt: localUri.expiresAt,
+        };
+        lastRefreshKeyRef.current = refreshKey;
         return;
       }
 

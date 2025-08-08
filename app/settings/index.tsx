@@ -1,5 +1,5 @@
 import { Avatar } from "@/components/Avatar";
-import { ThemedView } from "@/components/ThemedView";
+import ThemedView from "@/components/ThemedView";
 import { useAvatarRefresh } from "@/contexts/AvatarRefreshContext";
 import { useTheme } from "@/contexts/ThemeProvider";
 import { supabase } from "@/lib/supabase";

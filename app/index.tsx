@@ -1,5 +1,5 @@
 import Auth from '@/components/Auth'
-import { ThemedView } from '@/components/ThemedView'
+import ThemedView from '@/components/ThemedView'
 import { useTheme } from '@/contexts/ThemeProvider'
 import { supabase } from '@/lib/supabase'
 import { Session } from '@supabase/supabase-js'

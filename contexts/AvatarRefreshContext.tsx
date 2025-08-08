@@ -22,7 +22,6 @@ export function AvatarRefreshProvider({
     expiresAt: 0,
   });
   const bump = useCallback((localUri?: string) => {
-    console.log(localUri);
     if (localUri) {
       setUri({ uri: localUri, expiresAt: Date.now() + 6000 });
     }

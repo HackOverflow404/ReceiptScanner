@@ -1,12 +1,14 @@
+import { HapticTab } from "@/components/HapticTab";
+import TabBarBackground from "@/components/ui/TabBarBackground";
+import { useTheme } from "@/contexts/ThemeProvider";
 import { Tabs } from "expo-router";
 import React from "react";
-import { Platform } from "react-native";
-
-import { HapticTab } from "@/components/HapticTab";
-import { IconSymbol } from "@/components/ui/IconSymbol";
-import TabBarBackground from "@/components/ui/TabBarBackground";
+import { Platform, Text } from "react-native";
+import Icon from "react-native-vector-icons/MaterialIcons";
 
 export default function TabLayout() {
+  const theme = useTheme();
+
   return (
     <Tabs
       screenOptions={{
@@ -24,18 +26,34 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
-          tabBarIcon: ({ color }) => (
-            <IconSymbol size={28} name="house.fill" color={color} />
+          tabBarLabel: ({ color, focused }) => (
+            <Text style={{ color: focused ? theme.USDColor : color }}>
+              Home
+            </Text>
+          ),
+          tabBarIcon: ({ color, focused }) => (
+            <Icon
+              name="home"
+              size={28}
+              color={focused ? theme.USDColor : color}
+            />
           ),
         }}
       />
       <Tabs.Screen
         name="balances"
         options={{
-          title: "Balances",
-          tabBarIcon: ({ color }) => (
-            <IconSymbol size={28} name="paperplane.fill" color={color} />
+          tabBarLabel: ({ color, focused }) => (
+            <Text style={{ color: focused ? theme.USDColor : color }}>
+              Home
+            </Text>
+          ),
+          tabBarIcon: ({ color, focused }) => (
+            <Icon
+              name="account-balance"
+              size={28}
+              color={focused ? theme.USDColor : color}
+            />
           ),
         }}
       />

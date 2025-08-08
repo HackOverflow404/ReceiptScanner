@@ -20,7 +20,7 @@ export type PartialTheme = Partial<Theme>;
 
 const defaultTheme: Theme = {
   PageColor: "#23272A",
-  USDColor: "#85BB65",
+  USDColor: "#0580D1",
   TextColor: "#FFFFFF",
   AccentColor: "#2D2F33",
   PagePadding: 35,
