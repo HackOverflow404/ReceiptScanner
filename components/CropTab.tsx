@@ -15,6 +15,7 @@ const AnimatedLine = Animated.createAnimatedComponent(RawLine);
 const MAG_ZOOM = 10;
 const MAG_SIZE = 120;
 const GAP = 12;
+const BORDER = 5;
 
 type CropTabProps = {
   xStart: number;
@@ -126,35 +127,30 @@ export default function CropTab({
     }
 
     return {
-      opacity: isDragging.value,      // 0→1 while dragging
+      opacity: isDragging.value,
       transform: [
         { translateX: translateX.value + dx },
         { translateY: translateY.value + dy },
-        { scale: isDragging.value },  // pop-in / pop-out
+        { scale: isDragging.value },
       ],
     };
   });
 
-  const innerImageStyle = useAnimatedStyle(() => ({
-    // oversize image, then pan it so the pixel under the tab
-    // lands in the centre of the bubble
-    width: imgW * MAG_ZOOM,
-    height: imgH * MAG_ZOOM,
-    transform: [
-      {
-        translateX:
-          -translateX.value * MAG_ZOOM +
-          MAG_SIZE / 2 -
-          (tabSize / 2) * MAG_ZOOM,
-      },
-      {
-        translateY:
-          -translateY.value * MAG_ZOOM +
-          MAG_SIZE / 2 -
-          (tabSize / 2) * MAG_ZOOM,
-      },
-    ],
-  }));
+  const innerImageStyle = useAnimatedStyle(() => {
+    "worklet";
+
+    const cx = translateX.value + BORDER + (tabSize - BORDER * 2) / 2;
+    const cy = translateY.value - BORDER + (tabSize - BORDER * 2) / 2;
+
+    return {
+      width:  imgW * MAG_ZOOM,
+      height: imgH * MAG_ZOOM,
+      transform: [
+        { translateX: -cx * MAG_ZOOM + MAG_SIZE / 2 },
+        { translateY: -cy * MAG_ZOOM + MAG_SIZE / 2 },
+      ],
+    };
+  });
 
   return (
     <View style={StyleSheet.absoluteFillObject} pointerEvents="box-none">
@@ -192,7 +188,7 @@ export default function CropTab({
             overflow: "hidden",
             borderWidth: 2,
             borderColor: theme.USDColor,
-            backgroundColor: "#000", // optional contrast backdrop
+            backgroundColor: "#000",
           },
           magContainerStyle,
         ]}
@@ -210,7 +206,7 @@ export default function CropTab({
             y1={0}
             x2={MAG_SIZE / 2}
             y2={MAG_SIZE}
-            stroke={theme.AccentColor}        // white @ 50 % opacity
+            stroke={theme.AccentColor}
             strokeWidth={1.5}
           />
           {/* horizontal line */}
@@ -231,6 +227,6 @@ export default function CropTab({
 const styles = StyleSheet.create({
   tab: {
     position: "absolute",
-    borderWidth: 5,
+    borderWidth: BORDER,
   },
 });

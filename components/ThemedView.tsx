@@ -1,5 +1,6 @@
 import { useTheme } from '@/contexts/ThemeProvider';
-import { SafeAreaView, ScrollView, StyleSheet, type ScrollViewProps } from 'react-native';
+import { ScrollView, StyleSheet, type ScrollViewProps } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function ThemedView({ style, contentContainerStyle, ...otherProps }: ScrollViewProps) {
   const theme = useTheme();

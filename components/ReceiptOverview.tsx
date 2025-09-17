@@ -119,8 +119,8 @@ const ReceiptOverview: React.FC<ReceiptOverviewProps> = ({ receipt }) => {
       </View>
     );
   };
-  
-  const openReceiptDetails = () => {}
+
+  const openReceiptDetails = () => {};
 
   return (
     <Pressable
@@ -158,7 +158,10 @@ const ReceiptOverview: React.FC<ReceiptOverviewProps> = ({ receipt }) => {
       </View>
 
       {/* Splittees grid */}
-      <Pressable onPress={() => setModalVisible(true)} style={styles.splitteeContainer}>
+      <Pressable
+        onPress={() => setModalVisible(true)}
+        style={styles.splitteeContainer}
+      >
         <FlatList
           data={receipt.people}
           renderItem={renderSplittee}
