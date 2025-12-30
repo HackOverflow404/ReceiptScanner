@@ -1,4 +1,5 @@
 import DoubleTap from "@/components/DoubleTap";
+import ThemedView from "@/components/ThemedView";
 import { CameraType, CameraView, useCameraPermissions } from "expo-camera";
 import { useFocusEffect, useRouter } from "expo-router";
 import React, { useCallback, useRef, useState } from "react";
@@ -15,7 +16,6 @@ import Icon from "react-native-vector-icons/MaterialIcons";
 export default function ScanScreen() {
   const [facing, setFacing] = useState<CameraType>("back");
   const [permission, requestPermission] = useCameraPermissions();
-  const [uri, setUri] = useState<string | undefined>(undefined);
   const ref = useRef<CameraView>(null);
   const [shutterDisabled, setShutterDisabled] = useState(false);
   const router = useRouter();
@@ -33,12 +33,12 @@ export default function ScanScreen() {
 
   if (!permission.granted) {
     return (
-      <View style={styles.container}>
+      <ThemedView style={styles.container}>
         <Text style={styles.message}>
           We need your permission to show the camera
         </Text>
         <Button onPress={requestPermission} title="grant permission" />
-      </View>
+      </ThemedView>
     );
   }
 
@@ -52,7 +52,6 @@ export default function ScanScreen() {
     if (!photo) {
       return;
     }
-    setUri(photo?.uri);
     router.push({
       pathname: "/scan-flow/imageView",
       params: { scanImageUri: photo.uri },

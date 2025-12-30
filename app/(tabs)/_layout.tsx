@@ -45,7 +45,7 @@ export default function TabLayout() {
         options={{
           tabBarLabel: ({ color, focused }) => (
             <Text style={{ color: focused ? theme.USDColor : color }}>
-              Home
+              Balances
             </Text>
           ),
           tabBarIcon: ({ color, focused }) => (

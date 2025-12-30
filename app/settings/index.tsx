@@ -102,7 +102,7 @@ export default function Settings() {
       {/* Header */}
       <View style={styles.header}>
         <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
-          <Icon name="keyboard-return" size={28} color={theme.TextColor} />
+          <Icon name="navigate-before" size={28} color={theme.TextColor} />
         </TouchableOpacity>
         <Text style={[styles.title, { color: theme.USDColor }]}>Settings</Text>
         <View style={{ width: 36 }} />
